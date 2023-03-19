@@ -1,0 +1,87 @@
+.component__home {
+  padding: 3rem;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    194.69deg,
+    #1aace7 0%,
+    #47c0f0 46.87%,
+    #168bba 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.25s;
+}
+.component__home--active {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 400px;
+  max-width: 100vw;
+}
+.container__title-name {
+}
+.container__title-name button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0;
+}
+.container__title-name button span {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.container__title-job {
+  display: flex;
+}
+.container__title-job h2 {
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.container__title-job_developer {
+  font-size: 29px;
+  line-height: 50px;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+}
+.container__title-job-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container__title-job_web,
+.container__title-job_full,
+.container__title-job_stack {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.component__nav {
+  width: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.component__nav-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.component__nav-button path {
+}
+
+.component__nav-button-about {
+}

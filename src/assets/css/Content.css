@@ -1,0 +1,9 @@
+.component__content {
+  background-color: #1e1e1e;
+  height: auto;
+  min-height: 100vh;
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

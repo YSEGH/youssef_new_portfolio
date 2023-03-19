@@ -1,0 +1,13 @@
+.component__contact {
+  max-width: 80%;
+}
+.component__contact-title {
+  line-height: 80px;
+  font-size: 70px;
+  font-weight: 200;
+  color: #ffffff;
+  margin: 0 0 1rem;
+}
+.component__contact-title span {
+  font-weight: 600;
+}

@@ -1,0 +1,9 @@
+.svg__bg {
+  transform: translateZ(-2px);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.svg__bg path {
+  stroke: #a2a2a212;
+}
