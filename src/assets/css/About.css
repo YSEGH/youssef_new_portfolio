@@ -1,0 +1,79 @@
+.component__about {
+  padding: 25vh 0 15rem;
+}
+.component__about-title {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.component__about-title h1 {
+  z-index: 2;
+  font-size: 90px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 5rem;
+  white-space: nowrap;
+}
+.component__about-title img {
+  position: absolute;
+  top: -5rem;
+  right: 1rem;
+  z-index: 0;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.component__about-description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.component__about-description::after {
+  content: "";
+  height: 105%;
+  width: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #1aace7;
+}
+.component__about-text-container {
+  min-height: 10rem;
+  display: flex;
+}
+
+.component__about-text,
+.component__about-icon {
+  width: 250px;
+}
+.component__about-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.component__about-text:nth-child(1),
+.component__about-icon:nth-child(1) {
+  margin-right: 3rem;
+}
+.component__about-text:nth-child(2),
+.component__about-icon:nth-child(2) {
+  margin-left: 3rem;
+}
+.component__about-text h4 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.component__about-text p {
+  margin: 0.25rem 0;
+  color: #ffffff;
+}

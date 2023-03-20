@@ -9,5 +9,6 @@
   margin: 0 0 1rem;
 }
 .component__contact-title span {
+  color: #1aace7;
   font-weight: 600;
 }

@@ -11,7 +11,7 @@
 #form__contact .form--col {
   height: auto;
   padding: 0 0.25rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 #form__contact .form--col.form--col--textarea {
   margin-bottom: 0;
@@ -34,7 +34,7 @@
 #form__contact .form--col .form--field--wrapper .form--field--title {
   margin: 0;
   height: 30px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   transition: 0.25s;
   color: #ffffff;
