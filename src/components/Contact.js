@@ -37,16 +37,18 @@ export default function Contact() {
           I'd love <br />
           <span>to hear you.</span>
         </h2>
-        <form id="form__contact" onSubmit={submitFormHandler}>
-          {Object.entries(form).map(([key, field]) => (
-            <FieldWrapper key={field.id} field={field} />
-          ))}
-          <div className="form__contact-button_submit">
-            <button form="form__contact" type="submit">
-              Envoyer
-            </button>
-          </div>
-        </form>
+        <div className="form__contact-container">
+          <form id="form__contact" onSubmit={submitFormHandler}>
+            {Object.entries(form).map(([key, field]) => (
+              <FieldWrapper key={field.id} field={field} />
+            ))}
+            <div className="form__contact-button_submit">
+              <button form="form__contact" type="submit">
+                Envoyer
+              </button>
+            </div>
+          </form>
+        </div>
       </motion.div>
     </AnimatePresence>
   );

@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 export const AppState = {
-  route: "/",
+  route: window.location.pathname,
   form: {
     lastname: {
       id: uuidv4(),

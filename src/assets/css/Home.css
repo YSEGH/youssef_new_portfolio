@@ -13,8 +13,11 @@
   align-items: center;
   justify-content: space-between;
   transition: 0.25s;
+  z-index: 1000;
 }
 .component__home--active {
+  display: none;
+
   position: sticky;
   top: 0;
   left: 0;

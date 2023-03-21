@@ -25,15 +25,26 @@
   border-radius: 50%;
   object-fit: cover;
 }
+.component__about-presentation {
+  padding: 3rem;
+  background-color: #ffffff;
+}
+
+.component__about-presentation p {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
 
 .component__about-description {
+  padding-top: 5rem;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.component__about-description::after {
+/* .component__about-description::after {
   content: "";
   height: 105%;
   width: 10px;
@@ -43,21 +54,27 @@
   right: 0;
   margin: auto;
   background-color: #1aace7;
-}
+} */
 .component__about-text-container {
-  min-height: 10rem;
+  min-height: 15rem;
   display: flex;
 }
 
 .component__about-text,
 .component__about-icon {
-  width: 250px;
+  width: 300px;
 }
 .component__about-icon {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
+  padding-top: 3rem;
+}
+.component__about-icon svg {
+  width: 90px;
+  height: 90px;
+  margin: 5px;
 }
 .component__about-text:nth-child(1),
 .component__about-icon:nth-child(1) {
@@ -68,12 +85,17 @@
   margin-left: 3rem;
 }
 .component__about-text h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
   color: #ffffff;
-  font-size: 30px;
-  margin-bottom: 0;
+  font-size: 48px;
+  margin: 0;
 }
 
 .component__about-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
   margin: 0.25rem 0;
-  color: #ffffff;
+  color: rgb(203 213 225/1);
 }

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import About from "./About";
 import Work from "./Work";
 import Contact from "./Contact";
-import Home from "./Home";
+import Morph from "./Morph";
 
 export default function Content({ route }) {
   const displayComponent = () => {
@@ -23,5 +23,11 @@ export default function Content({ route }) {
     return () => {};
   }, [route]);
 
-  return <div className="component__content">{displayComponent()}</div>;
+  return (
+    <div className="component__content">
+      {/*       <Morph />
+       */}{" "}
+      {displayComponent()}
+    </div>
+  );
 }
